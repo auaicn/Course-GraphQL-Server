@@ -28,5 +28,5 @@ type Friend {
 
 type Mutation {
   addMovie(name: String!, score: Int!): Movie!
-  deleteMovie(id: Int!): String!
+  deleteMovie(id: Int!): Boolean!
 }
