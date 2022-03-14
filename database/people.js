@@ -35,10 +35,8 @@ export const friends = [
   },
 ];
 
-export const getFriendById = ({ id }) => {
-  const filteredFriend = friends.filter((friend) => {
-    return id === friend.id;
-  });
+export const getFriendById = (id) => {
+  const filteredFriend = friends.filter((friend) => id === friend.id);
 
   return filteredFriend[0];
 };
