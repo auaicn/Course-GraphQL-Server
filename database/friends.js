@@ -1,9 +1,3 @@
-export const owner = {
-  age: 24,
-  email: "crorowslowpp@gmail.com",
-  university: "hanyang university",
-};
-
 export const friends = [
   {
     id: 1,
@@ -40,3 +34,5 @@ export const getFriendById = (id) => {
 
   return filteredFriend[0];
 };
+
+export const getFriends = () => friends;

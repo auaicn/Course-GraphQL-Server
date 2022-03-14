@@ -29,6 +29,20 @@ export const getMovieById = (id) => {
   return filteredMovies[0];
 };
 
+export const addMovie = (name, score) => {
+  const lastMovie = movies[movies.length - 1];
+  const generatedId = lastMovie.id + 1;
+
+  const newMovie = {
+    id: generatedId,
+    name,
+    score,
+  };
+
+  movies.push(newMovie);
+  return newMovie;
+};
+
 export const deleteMovieById = (id) => {
   const moviesToMaintain = movies.filter((movie) => id !== movie.id);
 
