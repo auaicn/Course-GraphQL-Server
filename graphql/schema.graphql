@@ -2,12 +2,24 @@ type Query {
   owner: Owner!
   friends: [Friend]!
   friend(id: Int!): Friend!
+  movies(limit: Int, rating: Float): [Movie]!
 }
 
 type Owner {
   age: Int!
   email: String!
   university: String!
+}
+
+type Movie {
+  id: Int!
+  title: String!
+  year: Int!
+  rating: Float!
+  runtime: Int!
+  genres: [String]!
+  summary: String!
+  medium_cover_image: String!
 }
 
 type Friend {
