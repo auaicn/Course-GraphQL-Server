@@ -1,3 +1,9 @@
+type Owner {
+  age: String!
+  email: String!
+  university: String!
+}
+
 type Query {
-  name: String!
+  owner: Owner!
 }
