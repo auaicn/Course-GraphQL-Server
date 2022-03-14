@@ -2,8 +2,6 @@ type Query {
   owner: Owner!
   friends: [Friend]!
   friend(id: Int!): Friend!
-  movies: [Movie]!
-  movie(id: Int!): Movie!
 }
 
 type Owner {
@@ -12,21 +10,10 @@ type Owner {
   university: String!
 }
 
-type Movie {
-  id: Int!
-  name: String!
-  score: Int!
-}
-
 type Friend {
   id: Int!
   name: String!
   age: Int!
   email: String!
   company: String!
-}
-
-type Mutation {
-  addMovie(name: String!, score: Int!): Movie!
-  deleteMovie(id: Int!): Boolean!
 }
