@@ -1,9 +1,19 @@
 type Owner {
-  age: String!
+  age: Int!
   email: String!
   university: String!
 }
 
+type Friend {
+  id: Int!
+  name: String!
+  age: Int!
+  email: String!
+  company: String!
+}
+
 type Query {
   owner: Owner!
+  friends: [Friend]!
+  friend(id: Int!): Friend!
 }
