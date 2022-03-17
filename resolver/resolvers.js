@@ -1,6 +1,6 @@
 import { owner } from "../database/owner.js";
 import { getFriends, getFriendById } from "../database/friends.js";
-import { getMovies } from "../database/movies.js";
+import { getMovies, getMovie, getSuggestions } from "../database/movies.js";
 
 const resolvers = {
   Query: {
@@ -8,6 +8,8 @@ const resolvers = {
     friends: () => getFriends(),
     friend: (_, { id }) => getFriendById(id),
     movies: (_, { limit, rating }) => getMovies(limit, rating),
+    movie: (_, { id }) => getMovie(id),
+    suggestions: (_, { id }) => getSuggestions(id),
   },
 };
 
