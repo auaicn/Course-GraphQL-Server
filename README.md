@@ -34,8 +34,7 @@
 <h3 align="center">Simple GraphQL Server</h3>
 
   <p align="center">
-    NomadCoder 의 <a href="https://nomadcoders.co/graphql-for-beginners/lectures/1718">"GraphQL로 영화API 만들기"</a> 강의를 들으며 제작한 간단한 서버입니다.
-
+    NomadCoder 의 "GraphQL로 영화API 만들기" 강의를 들으며 제작한 간단한 서버입니다.
     <br />
     <a href="https://github.com/auaicn/Course-GraphQL-Server"><strong>Explore the docs »</strong></a>
     <br />
