@@ -1,5 +1,3 @@
-[https://nomadcoders.co/graphql-for-beginners/lectures/1718]()
-
 <div id="top"></div>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -36,7 +34,7 @@
 <h3 align="center">Simple GraphQL Server</h3>
 
   <p align="center">
-    NomadCoder 의 ["GraphQL로 영화API 만들기"](https://nomadcoders.co/graphql-for-beginners/lectures/1718) 강의를 들으며 제작한 간단한 서버입니다.
+    NomadCoder 의 <a href="https://nomadcoders.co/graphql-for-beginners/lectures/1718">"GraphQL로 영화API 만들기"</a> 강의를 들으며 제작한 간단한 서버입니다.
 
     <br />
     <a href="https://github.com/auaicn/Course-GraphQL-Server"><strong>Explore the docs »</strong></a>
@@ -69,7 +67,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -80,7 +77,8 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `auaicn`, `Course-GraphQL-Server`, `twitter_handle`, `linkedin_username`, `gmail`, `crorowslowpp@gmail.com`, `Simple GraphQL Server`, `NomadCoder 의 "GraphQL로 영화API 만들기" 강의를 들으며 제작한 간단한 서버입니다. `
+javascript 및 NodeJS 에 대한 첫 사용과, GraphQL 에 대한 기본적인 이해를 위해 Nomad Coder 의 무료 클론코딩 강의를 따라하며 진행한 프로젝트입니다.
+내부적으로 [yts](https://yts.mx/) 에서 제공하는 Open REST API 를 호출해 데이터베이스처럼 사용하였으며, 그 위에 View 계층으로써 GraphQL 을 사용할 수 있도록 하였습니다.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -88,6 +86,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 - [Node.js](https://nodejs.org/en/)
 - [GraphQL](https://graphql.org/)
+- [Axios](https://github.com/axios/axios)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -95,12 +94,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
 
 - npm
   ```sh
@@ -133,23 +127,6 @@ This is an example of how to list things you need to use the software and how to
 2. Open GraphQL playground [GraphQL playground](localhost:4000)
 
    If unavailable, check if port 4000 is free.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
