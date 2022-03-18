@@ -22,7 +22,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
@@ -34,10 +33,11 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Simple GraphQL Server</h3>
 
   <p align="center">
-    project_description
+    NomadCoder 의 ["GraphQL로 영화API 만들기"](https://nomadcoders.co/graphql-for-beginners/lectures/1718) 강의를 들으며 제작한 간단한 서버입니다.
+
     <br />
     <a href="https://github.com/auaicn/Course-GraphQL-Server"><strong>Explore the docs »</strong></a>
     <br />
@@ -47,6 +47,7 @@
     <a href="https://github.com/auaicn/Course-GraphQL-Server/issues">Report Bug</a>
     ·
     <a href="https://github.com/auaicn/Course-GraphQL-Server/issues">Request Feature</a>
+
   </p>
 </div>
 
@@ -68,11 +69,8 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -82,7 +80,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `auaicn`, `Course-GraphQL-Server`, `twitter_handle`, `linkedin_username`, `gmail`, `crorowslowpp@gmail.com`, `project_title`, `project_description`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `auaicn`, `Course-GraphQL-Server`, `twitter_handle`, `linkedin_username`, `gmail`, `crorowslowpp@gmail.com`, `Simple GraphQL Server`, `NomadCoder 의 "GraphQL로 영화API 만들기" 강의를 들으며 제작한 간단한 서버입니다. `
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -133,6 +131,7 @@ This is an example of how to list things you need to use the software and how to
    ```
 
 2. Open GraphQL playground [GraphQL playground](localhost:4000)
+
    If unavailable, check if port 4000 is free.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -154,31 +153,13 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- LICENSE -->
-
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- CONTACT -->
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - crorowslowpp@gmail.com@gmail.com
+Kyungho, Park - - crorowslowpp@gmail.com
 
 Project Link: [https://github.com/auaicn/Course-GraphQL-Server](https://github.com/auaicn/Course-GraphQL-Server)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-- []()
-- []()
-- []()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
