@@ -20,7 +20,7 @@ type Movie {
   rating: Float!
   runtime: Int!
   genres: [String]!
-  summary: String!
+  description_full: String!
   medium_cover_image: String!
 }
 
